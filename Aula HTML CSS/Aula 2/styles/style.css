@@ -1,0 +1,115 @@
+@import url('https://fonts.googleapis.com/css2?family=Krona+One&family=Montserrat:wght@400;600&display=swap');
+:root {
+    --cor-primaria: #000000;
+    --cor-secundaria: #F6F6F6;
+    --cor-terciaria: #22D4FD;
+    --cor-hover: #272727;
+
+    --fonte-principal: 'Krona One', sans-serif;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    box-sizing: border-box;
+    background-color: #000000;
+    color: #F6F6F6;
+    
+}
+
+.titulo-destaque {
+    color: #22D4FD;
+    
+}
+
+.cabecalho {
+    padding: 2% 0% 0% 15%;
+}
+
+.cabecalho_menu {
+    display: flex;
+    gap: 80px;
+   
+}
+.cabecalho_menu_link {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 24px;
+    font-weight: 600;
+    color:#22D4FD; 
+    text-decoration: none;
+}
+
+.apresentacao {
+    margin: 8% 15%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.apresentacao_conteudo {
+    width: 615px;
+    display: flex;
+    flex-direction: column;
+    gap: 40px
+}
+
+.apresentacao_conteudo_titulo {
+    font-size: 36px;
+    font-family: 'Krona One', sans-serif;
+}
+
+.apresentacao_conteudo_texto {
+    font-size: 24px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.apresentacao_conteudo_links{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    gap: 32px
+}
+
+.apresentacao_conteudo_links_subtitulo {
+    font-family: 'Krona One', sans-serif;
+    font-weight: 400;
+    font-size: 24px;
+}
+.apresentacao_conteudo_links_link {
+    /* background-color: #22D4FD; */
+    width: 378px;
+    display:flex;
+    align-items: center;
+    justify-content:center;
+    gap:16px;
+   
+    
+    font-size:24px;
+    border-radius: 8px;
+    border: 2px solid #22D4FD;
+    padding:21.5px 0;
+    text-decoration: none;
+    color:black;
+    font-family: "Montserrat", sans-serif;
+    font-weight:600;
+    color: #ffffff;
+}
+
+.apresentacao_conteudo_links_link:hover{
+    background-color: #272727;
+ 
+}
+
+.rodape {
+    padding: 24px;
+    background-color: #22D4FD;
+    text-align: center;
+    font-family:'Montserrat', sans-serif;
+    font-weight: 400px;
+    font-size:24px;
+    color: #000000;
+}
